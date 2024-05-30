@@ -1,0 +1,78 @@
+.header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header img {
+    width: 300px;
+  }
+  .header ul {
+    display: flex;
+    width: 100%;
+    justify-content: right;
+    align-items: center;
+    padding-right: 15px;
+  }
+  
+  .header li {
+    list-style: none;
+    font-size: 28px;
+    margin: 0px 15px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .contenedor {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  .noticias {
+    width: 100%;
+    margin: 15px 0;
+    padding: 15px;
+  }
+  .noticias h1 {
+    font-size: 21px;
+    color: rgb(73, 65, 118);
+    text-align: justify;
+  }
+  .noticias p {
+    font-size: 18px;
+    text-align: justify;
+  }
+  button {
+    background-color: rgb(175, 105, 173);
+    color: rgb(136, 85, 85);
+    padding: 5px;
+    width: 100px;
+    cursor: pointer; 
+  }
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    background-color: rgb(158, 86, 104);
+    height: 100px;
+  }
+  footer a {
+    color: rgb(234, 181, 82);
+  }
+  
+  .btn-primary {
+    border: solid 1px hsl(295, 41%, 26%);
+    background-color: hsl(306, 42%, 33%);
+  }
+  
+  .btn-primary:focus,
+  .btn-primary:hover {
+    box-shadow: none;
+    border: solid 1px hsl(0, 85%, 21%);
+    background-color: hsl(65, 42%, 40%);
+  }
+  
